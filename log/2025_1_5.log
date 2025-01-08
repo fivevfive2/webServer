@@ -1,0 +1,4 @@
+2025-01-05 20:03:08.673291 [debug]: Debug message: some value.
+2025-01-05 20:03:08.673341 [info] : Info message.
+2025-01-05 20:03:08.673375 [warn] : Warning message.1,2
+2025-01-05 20:03:08.673406 [error]: Error message.
