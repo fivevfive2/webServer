@@ -34,7 +34,7 @@ namespace bre {
         void loaConfig() {
             std::ifstream configFile("config.txt");
 
-            if (configFile.is_open()) {
+            if (!configFile.is_open()) {
                 throw std::runtime_error("Fail to open config file!");
             }
 

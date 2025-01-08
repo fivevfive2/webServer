@@ -38,7 +38,7 @@ namespace bre {
             return writePost - readPost;
         }
 
-        const char *Peek() {
+        const char *Peek() const {
             return buffer.data() + readPost;
         }
 
@@ -80,11 +80,11 @@ namespace bre {
             Append(static_cast<const char *>(data), len);
         }
 
-        void Append(bre::Buffer &buff) {
+        void Append(const bre::Buffer &buff) {
             Append(buff.Peek(), buff.ReadableBytes());
         }
 
-        void Append(const char *str, size_t len) {
+        void Append(const char *str, const size_t len) {
             if (WritableBytes() < len) {
                 expandBuffer(len);
             }
