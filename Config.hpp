@@ -55,4 +55,4 @@ namespace bre {
             str.erase(std::remove_if(str.begin(), str.end(), ::isspace), str.end());
         }
     };
-};// namespace bre
+};
