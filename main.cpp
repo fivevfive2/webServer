@@ -1,4 +1,4 @@
-#include "Buffer.hpp"
+#include "./Buffer/Buffer.hpp"
 
 int main(){
     bre::Buffer* p = new bre::Buffer;

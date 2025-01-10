@@ -1,6 +1,6 @@
 
-#include "BlockQueue.hpp"
-#include "Buffer.hpp"
+#include "../BlockQueue/BlockQueue.hpp"
+#include "../Buffer/Buffer.hpp"
 #include <iostream>
 #include <exception>
 #include <string>
