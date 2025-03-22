@@ -1,0 +1,3 @@
+/home/lwdw/WebServer/src/timer/bulid/CMakeFiles/main.dir
+/home/lwdw/WebServer/src/timer/bulid/CMakeFiles/edit_cache.dir
+/home/lwdw/WebServer/src/timer/bulid/CMakeFiles/rebuild_cache.dir

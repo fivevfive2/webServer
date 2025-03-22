@@ -1,8 +1,0 @@
-2025-01-04 19:36:14.202293 [debug]: Debug message: some value.
-2025-01-04 19:36:14.202348 [info] : Info message.
-2025-01-04 19:36:14.202432 [warn] : Warning message.1,2
-2025-01-04 19:36:14.202512 [error]: Error message.
-2025-01-04 19:36:39.677239 [debug]: Debug message: some value.
-2025-01-04 19:36:39.677300 [info] : Info message.
-2025-01-04 19:36:39.677352 [warn] : Warning message.1,2
-2025-01-04 19:36:39.677404 [error]: Error message.

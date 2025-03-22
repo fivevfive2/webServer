@@ -6,10 +6,6 @@
             "command": "/usr/bin/g++",
             "args": [
                 "-fdiagnostics-color=always",
-                "-std=c++2a",
-                "-I/home/lwdw/mysql-connector-c++-9.1.0-linux-glibc2.28-x86-64bit/include",
-                "-L/home/lwdw/mysql-connector-c++-9.1.0-linux-glibc2.28-x86-64bit/lib64",
-                "-lmysqlcppconn",
                 "-g",
                 "${file}",
                 "-o",
